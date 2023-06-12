@@ -1,17 +1,21 @@
 <html>
     <head>
+        <title>Daily Passenger Counter</title>
+
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <div class="container">
-            <h1>Daily Passenger Counter</h1>
-            <h2>People Entered:</h2>
+            <h1>Train Passenger Counter</h1>
+            <h2>Passengers Entered:</h2>
             <h1 id="count-el">0</h1>
             <button id="increment-btn" onclick="increment()">+</button>
             <button id="increment-btn" onclick="decrease()">-</button>
             <button id="save-btn" onclick="save()">Save</button>
-            <h3>People Counted :</h3>
+            <h2>Passengers Counted by Train:</h2>
             <h3 id="count-save"></h3>
+            <h2>Total Passengers Counted :</h2>
+            <h3 id="count-total"></h3>
         </div>
         <script src="index.js"></script>
     </body>
